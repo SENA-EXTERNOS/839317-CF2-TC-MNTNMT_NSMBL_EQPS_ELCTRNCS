@@ -10,14 +10,17 @@
             img(src="@/assets/curso/temas/ad.svg", alt="Arrastrar y soltar")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Actividad didáctica
-        p.mb-4 #[b Objetivo]: a través de la siguiente actividad, podrá recordar y apropiar algunos de los saberes abordados.
+          h2 Descripción y funcionamiento de equipos electrónicos
+        p.mb-4 Esta actividad le permitirá determinar el grado de apropiación de los contenidos del componente formativo.
+          br
+          br
+          |De acuerdo con la definición planteada en la columna izquierda, arrastre cada término al lugar que considere correcto de la columna derecha.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Opción múltiple
+              p.fw-bold.mb-0 Arrastrar y soltar
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/index.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
                 

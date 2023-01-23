@@ -14,10 +14,8 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 A continuación, se presentan algunos conceptos que le permitirán comprender e interpretar los elementos, estructuras y tipos de planos esquemáticos presentes en los diferentes equipos electrónicos. Estos conocimientos facilitarán la identificación de los diversos componentes electrónicos para su caracterización y posterior medición.
         
-    Separador
 
-    #t_1_1.titulo-segundo.color-acento-contenido
-      h2 1.1 Planos esquemáticos
+    h3 Planos esquemáticos
 
     .row.justify-content-end.align-items-center.mb-5
       .col-md-6
@@ -30,7 +28,7 @@
     
     h3 Simbología
 
-    p La simbología dentro de los planos esquemáticos ayuda a diferenciar los distintos componentes electrónicos, debido a esto se debe aprender a identificar cada uno de los símbolos presentes en este tipo de representación. A continuación, se presentan algunos de ellos.
+    p La simbología, dentro de los planos esquemáticos, ayuda a diferenciar los distintos componentes electrónicos y, debido a esto, se debe aprender a identificar cada uno de los símbolos presentes en este tipo de representación. A continuación, se presentan algunos de ellos:
 
     .bg1.my-4(data-aos='fade-down')
       SlyderF(columnas="col-lg-6 col-xl-4")
@@ -98,21 +96,25 @@
     h3 Tipos, características y especificaciones
     
     p Además de poder identificar de forma correcta los elementos presentes en los planos esquemáticos, es importante conocer los tipos y características de los diferentes diagramas circuitales; información que será de utilidad a la hora de diseñar estos diagramas, caracterizarlos o interpretarlos.
-    p A continuación, se presentan los tipos, características y especificaciones de los diagramas circuitales.
+      br
+      br
+      |A continuación, se presentan los tipos, características y especificaciones de los diagramas circuitales:
 
     TabsB.color-acento-botones.mb-5(data-aos='fade-left')
       .p-4.p-md-5(titulo="Esquemas topográficos" :icono="require('@/assets/curso/temas/t1/f13.svg')")
         .row.align-items-center.justify-content-center
           .col-md-6.mb-4.mb-md-0
-            p Este tipo de esquemático se caracteriza por realizar un diagrama circuital, teniendo en cuenta el lugar en donde se realizará la instalación de los elementos. 
-            p Se caracteriza por dar una sensación de realidad en el espacio disponible para la instalación de los elementos o dispositivos electrónicos.
+            p Este tipo de esquema se caracteriza por realizar un diagrama circuital, teniendo en cuenta el lugar en donde se realizará la instalación de los elementos. 
+              br
+              br
+              |Se caracteriza también, por dar una sensación de realidad en el espacio disponible para la instalación de los elementos o dispositivos electrónicos.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/t1/f17.png', alt='imagen relacionada')
       .p-4.p-md-5(titulo="Esquema unifilar" :icono="require('@/assets/curso/temas/t1/f14.svg')")
         .row.align-items-center.justify-content-center
           .col-md-6.mb-4.mb-md-0
-            p Este tipo de esquemático es más complejo de entender debido a su representación simplificada de los planos electrónicos, se caracteriza por incluir todos los conductores de un mismo tramo. De esta manera su simplicidad gráfica y complejidad de entendimiento aumentan.
+            p Este tipo de esquema es más complejo de entender, debido a su representación simplificada de los planos electrónicos; se caracteriza por incluir todos los conductores de un mismo tramo. De esta manera, su simplicidad gráfica y complejidad de entendimiento aumentan.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/t1/f18.png', alt='imagen relacionada')
@@ -131,7 +133,7 @@
             figure
               img(src='@/assets/curso/temas/t1/f20.png', alt='imagen relacionada')
 
-    h3 Tipos de software
+    h3 Tipos de #[em software]
     
     .row.justify-content-center.mb-4
       .col-md-5
@@ -139,16 +141,14 @@
           img(src="@/assets/curso/temas/t1/f21.png", alt="Persona frente a la pantalla de un computador")
       .col-md-7
         .bloquetl.p-4.p-relative
-          p.mb-0 La utilización de herramientas especializadas para el diseño de planos esquemáticos es de suma importancia hoy por hoy. Gracias a los softwares de diseño asistido por computadora actuales se puede probar cada uno de los diseños realizados sin la necesidad de materializarlos, reduciendo costos por cualquier tipo de fallo u operación. Por este principal motivo debemos familiarizarnos con los programas que se utilizarán en el desarrollo de este componente formativo.
+          p.mb-0 En la actualidad, la utilización de herramientas especializadas para el diseño de planos esquemáticos, es de suma importancia. Gracias a los #[em software] de diseño asistidos por computadoras actuales, se puede probar cada uno de los diseños realizados sin la necesidad de materializarlos, reduciendo costos por cualquier tipo de fallo u operación. Por este principal motivo, debemos familiarizarnos con los programas que se conocerán durante el desarrollo de este componente formativo.
             br
             br
-            | A continuación, se presenta de manera general dos 
-            em softwares 
-            | que suelen ser empleados para el diseño de planos esquemáticos:
+            |A continuación, se presentan, de manera general, dos #[em software] que suelen ser empleados para el diseño de planos esquemáticos:
 
         TabsA.color-acento-botones.mb-4 
           .tarjeta.color-secundario--borde.p-4(titulo="Proteus")
-            p Proteus es un software especializado que permite el diseño de PCB, pruebas de sistemas integrados, por medio de simulaciones y construcción de entornos integrados con IoT. Dando como resultado una herramienta versátil y especializada para el diseño esquemático de circuitos electrónicos.
+            p Proteus es un #[em software] especializado que permite el diseño de PCB, pruebas de sistemas integrados, por medio de simulaciones y construcción de entornos integrados con IoT, dando como resultado una herramienta versátil y especializada para el diseño esquemático de circuitos electrónicos.
           .tarjeta.color-secundario--borde.p-4(titulo="Multisim")
             p Es un 
               em software 
@@ -161,7 +161,9 @@
 
     .bg2
       p Dentro de la comprobación de los diseños o planos esquemáticos de los circuitos electrónicos se pueden encontrar dos grandes grupos: circuitos analógicos y circuitos digitales.
-      p A continuación, se presenta la definición y características de algunos de ellos.
+        br
+        br
+        |A continuación, se presenta definición y características de algunos de ellos:
 
       .col-md-8.mx-auto.mb-5
         .tarjeta-avatar-b.mb-5
@@ -180,7 +182,7 @@
               p Este tipo de circuitos controlan señales que solo pueden tener dos estados posibles, ausencia o presencia de tensión o corriente, y se componen de aquellos elementos usados para representar salidas como: lámparas, timbres, motores, etc. Y también aquellos elementos usados para representar entradas como interruptores pulsadores, sensores, entre otros.
 
     h3 Motores eléctricos
-    p Los motores eléctricos son componentes muy frecuentes en el entorno industrial debido a sus múltiples aplicaciones dentro de este entorno. Este principal motivo obliga a profundizar en los conceptos propios de los motores eléctricos, entre ellos su funcionamiento, partes y definición. Más precisamente: “El motor eléctrico es una máquina que puede convertir la electricidad en movimiento rotatorio, con objeto de que efectúe un trabajo útil.” (Mileaf, H. (2002). Electricidad. Limusa. p. 7-1). Para conocer un poco más de ellos, su funcionamiento, características y tipo, lo invitamos a observar con atención el siguiente video.
+    p Los motores eléctricos son componentes muy frecuentes en el entorno industrial, debido a sus múltiples aplicaciones dentro de este entorno. Este principal motivo obliga a profundizar en los conceptos propios de los motores eléctricos, entre ellos su funcionamiento, partes y definición. Más precisamente: “El motor eléctrico es una máquina que puede convertir la electricidad en movimiento rotatorio, con el objetivo que efectúe un trabajo útil” Mileaf, H. (2002). Para conocer un poco más sobre ellos, su funcionamiento, características y tipos, lo invitamos a observar con atención el siguiente video:
 
     figure.mb-5
       .video
@@ -188,8 +190,10 @@
       
     .bg3
       h3 Conexiones
-      p Dependiendo del tipo de motor el cual se quiere poner en marcha, se debe realizar algunas configuraciones que están dadas por el tipo de conexión, entre ellas encontramos: conexión motor DC, conexión tipo estrella, conexión tipo Delta, puesta en marcha, arranque directo, arranque Y/∆. 
-      p A continuación, se describen cada una de ellas: 
+      p Dependiendo del tipo de motor que se quiere poner en marcha, se deben realizar algunas configuraciones que están dadas por el tipo de conexión; entre los diferentes tipos de conexiones, podemos resaltar las siguientes: conexión motor DC, conexión tipo estrella, conexión tipo Delta, puesta en marcha, arranque directo, arranque Y/∆. 
+        br
+        br
+        |A continuación, se describen cada una de ellas:  
 
       .row.justify-content-center
         .col-md-5
@@ -198,25 +202,35 @@
         .col-md-7
           AcordionA(tipo="a" clase-tarjeta="tarjeta fcs80")
             div(titulo="Conexión Motor DC")
-              p Esta conexión es la más simple, solo se debe conectar los dos pines o cables del motor en una fuente de tensión DC con el nivel sugerido por el fabricante. De acuerdo con la polaridad u orden de conexión el motor girará en un sentido u otro.
+              p Esta conexión es la más simple, solo se deben conectar los dos pines o cables del motor en una fuente de tensión DC con el nivel sugerido por el fabricante. De acuerdo con la polaridad u orden de conexión, el motor girará en un sentido o en el otro.
             div(titulo="Conexión Tipo estrella")
               p Este tipo de conexión es usada para los motores trifásicos; se caracteriza por conectar todas las fases en un punto común, es decir, todas las fuentes o fases conducen su energía aún mismo nodo. Es usado comúnmente en motores que requieran una baja corriente eléctrica para su arranque y alta tensión.
             div(titulo="Conexión tipo Delta")
               p La conexión tipo delta o triángulo se caracteriza por tener una fase en cada uno de sus lados sin la necesidad de punto común. A lo no existir este punto, no es necesario tener un neutro por lo cual, si una de las tres fases llega a fallar no se verá comprometido el funcionamiento del motor, ventaja muy importante a tener en cuenta en el diseño de este tipo de dispositivos. A diferencia de la configuración estrella, este tipo de conexión se usa en motores que demanden una alta corriente en el arranque y baja tensión.
             div(titulo="Puesta en marcha")
-              p Para la puesta en marcha o arranque de un motor eléctrico se debe realizar una vez verificadas las características de este en su estructura, hoja de datos o manual. Dentro del arranque de los motores eléctricos se tienen las siguientes configuraciones.
-            div(titulo="Arranque directo")
-              p En este tipo de arranque se debe observar en la chapa del motor o en el manual del dispositivo el tipo de conexión admisible por el equipo. En ocasiones algunos motores admiten un arranque directo con conexión delta o estrella, para ello debemos seguir las instrucciones del fabricante para realizar una de estas configuraciones.
-            div(titulo="Arranque Y/∆")
-              p En motores con este tipo de arranque podremos alternar el funcionamiento del motor con las configuraciones delta o estrella, por ejemplo, arrancar el motor con la configuración estrella y cambiar después de un determinado tiempo a la conexión delta. Al igual que en el caso anterior se debe seguir las instrucciones del fabricante. En ocasiones se encontrarán motores capaces de operar con un arranque directo (Única configuración) o un arranque y funcionamiento combinado.
+              p Para la puesta en marcha o arranque de un motor eléctrico se debe realizar una vez verificadas las características de este en su estructura, hoja de datos o manual. Dentro del arranque de los motores eléctricos se tienen las siguientes configuraciones:
+              ul.lista-ul--color
+                li
+                  i.fas.fa-angle-right
+                  p.mb-0 #[b Arranque directo:]
+                    br
+                    br
+                    | En este tipo de arranque se debe observar en la chapa del motor o en el manual del dispositivo el tipo de conexión admisible por el equipo. En ocasiones algunos motores admiten un arranque directo con conexión delta o estrella, para ello debemos seguir las instrucciones del fabricante para realizar una de estas configuraciones.
 
+                li
+                  i.fas.fa-angle-right 
+                  p.mb-0 #[b Arranque Y/∆ :]
+                    br
+                    br
+                    | En motores con este tipo de arranque podremos alternar el funcionamiento del motor con las configuraciones delta o estrella, por ejemplo, arrancar el motor con la configuración estrella y cambiar después de un determinado tiempo a la conexión delta. Al igual que en el caso anterior se debe seguir las instrucciones del fabricante. En ocasiones se encontrarán motores capaces de operar con un arranque directo (única configuración) o un arranque y funcionamiento combinado.
     Separador
 
-    #t_1_2.titulo-segundo.color-acento-contenido
-      h2 1.2 Equipos, instrumentos y medidas
+    h3 Equipos, instrumentos y medidas
 
     p En física, química e ingeniería, un instrumento de medición es un dispositivo utilizado para comparar magnitudes físicas a través de un proceso de medición. En los tiempos modernos, se han desarrollado varios tipos de instrumentos de medición y se utilizan en laboratorios, entornos industriales y la vida cotidiana.
-    p A continuación, se describen los equipos, instrumentos y medidas.
+      br
+      br
+      |A continuación, se describen los equipos, instrumentos y medidas:
 
     .tarjeta.p-3.bgslide1(data-aos='fade-left')
       SlyderA.color-acento-botones(tipo="b")
@@ -255,12 +269,10 @@
           .col-md-4
             figure
               img(src='@/assets/curso/temas/t1/f24.png', alt='Texto que describa la imagen')
-     
-    Separador
+    
 
-    #t_1_3.bg4
-      .titulo-segundo.color-acento-contenido
-        h2 1.3 Circuitos eléctricos
+    .bg4
+      h3 Circuitos eléctricos
       
       p Un circuito electrónico es una estructura compuesta por componentes pasivos, activos y semiconductores conectados entre sí formando trayectorias cerradas que inician y terminan en un mismo punto.
 
@@ -273,19 +285,17 @@
             div(titulo="Tipos")
               p Los circuitos electrónicos se dividen en dos grupos. El primer grupo son aquellos circuitos que manejan señales analógicas, aquellas cuyo valor de tensión o corriente varía en el tiempo o bien se mantiene constante. El segundo grupo son los circuitos digitales y son aquellos en donde sus tensiones o corrientes solo pueden poseer dos valores.
             div(titulo="Inspección visual y fallas")
-              p La inspección visual es un apartado muy importante a la hora de verificar la calidad en los resultados de diseño o de buscar fallas en los circuitos electrónicos. Dentro de este apartado se debe buscar pistas mal diseñadas, rotas o con las especificaciones incorrectas, componentes mal ubicados o en mal estado. Lo anterior para lo calizar las posibles imperfecciones o averías dentro de un circuito electrónico.
+              p La inspección visual es un apartado muy importante a la hora de verificar la calidad en los resultados de diseño o de buscar fallas en los circuitos electrónicos. Dentro de este apartado se debe buscar pistas mal diseñadas, rotas o con las especificaciones incorrectas, componentes mal ubicados o en mal estado. Lo anterior para localizar las posibles imperfecciones o averías dentro de un circuito electrónico.
             div(titulo="Planimetría")
               p La planimetría es la técnica o método por medio del cual se disponen los componentes de un circuito electrónico dentro de una representación gráfica a escala detallando el funcionamiento y ubicación de cada elemento, permitiendo así, su reproducibilidad, materialización, interpretación y comprensión del diseño electrónico.
             div(titulo="Pruebas de funcionamiento y normativas")
               p La industria eléctrica tiene muchos equipos especializados que deben probarse antes de usarse. Algunos equipos comunes que necesitan pruebas incluyen generadores de energía, sistemas de aire acondicionado y sistemas de comunicación. 
                 br
                 br
-                | Para probar estos equipos se usa herramientas especiales para testear los componentes internos de los dispositivos y circuitos electrónicos y así, verificar primero la funcionalidad. Esto les permite identificar cualquier problema con el equipo antes de que alguien se lastime al usarlo en un lugar público. Una vez que se han identificado y solucionado los problemas con el equipo, se finaliza la prueba para que el equipo se pueda utilizar sin demora. Todos los procedimientos realizados a los equipos se deben hacer bajo las normas estipuladas por el fabricante, esto significa que se debe usar el manual de usuario en todo momento.
+                |Para probar estos equipos, se utilizan herramientas especiales que testean los componentes internos de los dispositivos y circuitos electrónicos y, de esta manera, se verifica primero la funcionalidad. Esto permite identificar cualquier problema con el equipo, antes que se presente un accidente al usarlo en un lugar público. Una vez que se han identificado y solucionado los problemas con el equipo, se finaliza la prueba para utilizarlo sin demora. Todos los procedimientos realizados a los equipos, se deben hacer bajo las normas estipuladas por el fabricante; esto significa que se debe usar el manual de usuario en todo momento.
 
-    Separador
 
-    #t_1_4.titulo-segundo.color-acento-contenido
-      h2 1.4 Herramientas
+    h3 Herramientas
 
     p Un profesional no solo debe contar con los conocimientos teóricos necesarios para realizar el diagnóstico o mantenimiento de equipos sino también debe contar con las herramientas adecuadas para cada procedimiento. A continuación, se presentan los tipos, características, uso y manejo y orden de trabajo.
 
@@ -309,7 +319,7 @@
           li.cblanco.text-small 
             .lista-ol--cuadro__vineta
               span c
-            | Medición: son equipos diseñados para monitorear el comportamiento o estado de los elementos electrónicos existentes en un circuito. Dentro de este tipo de dispositivos se tiene los multímetros, osciloscopios, etc.
+            | Medición: son equipos diseñados para monitorear el comportamiento o estado de los elementos electrónicos existentes en un circuito. Dentro de este tipo de dispositivos, se tienen los multímetros, osciloscopios, etc.
           li.cblanco.text-small 
             .lista-ol--cuadro__vineta
               span d

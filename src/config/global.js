@@ -145,34 +145,29 @@ export default {
   },
   complementario: [
     {
-      tema: 'Motores eléctricos',
+      tema:
+        'Identificación e interpretación de los diferentes elementos presentes en un plano esquemático',
       referencia:
-        'Jfetronic: Electrónica y Más. (2016, 28 diciembre). <em>Tutorial Multisim 14: Introducción y manejo básico</em> [Vídeo]. YouTube',
+        'Jfetronic: Electrónica y Más. (2016). <em>Tutorial Multisim 14: Introducción y manejo básico [video].</em> YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=Bm8Uk2RhYK0',
     },
     {
-      tema: 'Planos esquemáticos',
+      tema:
+        'Identificación e interpretación de los diferentes elementos presentes en un plano esquemático',
       referencia:
-        'Kriss Electronics. (2016, 5 febrero). <em>Proteus Design Suite Version 8</em> [Vídeo]. YouTube.',
+        'Kriss Electronics. (2016). <em>Proteus Design Suite Version 8 [video].</em> YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=CFuGS9iz320',
     },
     {
-      tema: 'Circuitos electrónicos',
+      tema:
+        'Identificación e interpretación de los diferentes elementos presentes en un plano esquemático',
       referencia:
-        'Floyd, T. L., & Salas, R. N. (2008). <em>Dispositivos electrónicos 8ED</em>. Pearson Educación.',
+        'Floyd, T. L., & Salas, R. N. (2008). <em>Dispositivos electrónicos 8ED.</em> Pearson Educación.',
       tipo: 'Libro',
       link:
         'https://www.alphaeditorialcloud.com/library/publication/circuitos-electricos-9a-edicion',
-    },
-    {
-      tema: 'Motores eléctricos',
-      referencia:
-        'Martínez, J. F. M. M. J. C. R. (2022). <em>Corriente Alterna Nonofasica Y Trifasica. Fundamentos De Electrotecnia Para Ingenieros.</em> Alfaomega Grupo Editor.',
-      tipo: 'Libro',
-      link:
-        'https://www.alphaeditorialcloud.com/library/publication/corriente-alterna-monofasica-y-trifasica',
     },
   ],
   glosario: [
@@ -238,13 +233,13 @@ export default {
     {
       termino: 'Voltaje',
       significado:
-        '“carga eléctrica que adquiere un objeto se llama potencial eléctrico, debido a que los electrones desplazados acumulan energía potencial que se puede utilizar para mover a otros electrones”. (Mileaf, H., 2002)',
+        '“la carga eléctrica que adquiere un objeto, se llama potencial eléctrico, debido a que los electrones desplazados acumulan energía potencial que se puede utilizar para mover a otros electrones” (Mileaf, H., 2002).',
     },
   ],
   referencias: [
     {
       referencia:
-        'Aprende Institute. (2022, 22 julio). <em>Herramientas utilizadas en la reparación electrónica</em>.',
+        'Aprende Institute. (2022). <em>Herramientas utilizadas en la reparación electrónica.</em>',
       link:
         'https://aprende.com/blog/oficios/reparacion-electronica/herramientas-utilizadas-en-la-reparacion-electronica/ ',
     },
@@ -274,15 +269,26 @@ export default {
     },
     {
       referencia:
-        'Fernández, E. J. L., García, S. C., Lezcano, R. A. G., & Contreras, G. S. (2020). <em>Electricidad y magnetismo</em>. Ibergarceta Publicaciones, S.L.',
+        'Fernández, E. J. L., García, S. C., Lezcano, R. A. G., & Contreras, G. S. (2020). <em>Electricidad y magnetismo.</em> Ibergarceta Publicaciones, S.L.',
     },
     {
       referencia:
-        'Floyd, T. L., & Salas, R. N. (2008). <em>Dispositivos electrónicos 8ED</em>. Pearson Educación.',
+        'Floyd, T. L. & Salas, R. N. (2008). Dispositivos electrónicos 8ED. Pearson Educación.',
     },
     {
-      referencia:
-        'Martínez, J. F. M. M. J. C. R. (2022). <em>Corriente Alterna Nonofasica Y Trifasica. Fundamentos De Electrotecnia Para Ingenieros</em>. Alfaomega Grupo Editor.',
+      referencia: 'Fluke. (2016). <em>¿Qué es la ley de Ohm?</em> Fluke.',
+      link:
+        'https://www.fluke.com/es-co/informacion/blog/electrica/que-es-la-ley-de-ohm ',
+    },
+    {
+      referencia: 'Fluke. (2021). <em>¿Qué es la continuidad?</em> Fluke.',
+      link:
+        'https://www.fluke.com/es-co/informacion/blog/electrica/que-es-la-continuidad',
+    },
+    {
+      referencia: 'Fluke. (2021). <em>¿Qué es un diodo?</em> Fluke.',
+      link:
+        'https://www.fluke.com/es-co/informacion/blog/electrica/que-es-un-diodo',
     },
     {
       referencia: 'Mileaf, H. (2002). <em>Electricidad</em>. Limusa.',
