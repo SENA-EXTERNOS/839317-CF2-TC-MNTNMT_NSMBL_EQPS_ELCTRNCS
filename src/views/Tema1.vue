@@ -7,7 +7,7 @@
         span.cblanco 1
       h1 Identificación e interpretación de los diferentes elementos presentes en un plano esquemático
 
-    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5(data-aos='flip-right')
+    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5(data-aos='flip-right').mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/t1/f1.jpg')})`}"
       )
@@ -223,7 +223,6 @@
                     br
                     br
                     | En motores con este tipo de arranque podremos alternar el funcionamiento del motor con las configuraciones delta o estrella, por ejemplo, arrancar el motor con la configuración estrella y cambiar después de un determinado tiempo a la conexión delta. Al igual que en el caso anterior se debe seguir las instrucciones del fabricante. En ocasiones se encontrarán motores capaces de operar con un arranque directo (única configuración) o un arranque y funcionamiento combinado.
-    Separador
 
     h3 Equipos, instrumentos y medidas
 
@@ -272,7 +271,7 @@
     
 
     .bg4
-      h3 Circuitos eléctricos
+      h3 Circuitos electrónicos 
       
       p Un circuito electrónico es una estructura compuesta por componentes pasivos, activos y semiconductores conectados entre sí formando trayectorias cerradas que inician y terminan en un mismo punto.
 
@@ -297,7 +296,7 @@
 
     h3 Herramientas
 
-    p Un profesional no solo debe contar con los conocimientos teóricos necesarios para realizar el diagnóstico o mantenimiento de equipos sino también debe contar con las herramientas adecuadas para cada procedimiento. A continuación, se presentan los tipos, características, uso y manejo y orden de trabajo.
+    p Un profesional no solo debe contar con los conocimientos teóricos necesarios para realizar el diagnóstico o mantenimiento de equipos, sino que también debe contar con las herramientas adecuadas para cada procedimiento. A continuación, se presentan los tipos, características, uso, manejo y orden de trabajo:
 
     ImagenInfografica.color-acento-botones
       template(v-slot:imagen)

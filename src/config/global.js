@@ -40,32 +40,6 @@ export default {
         titulo:
           'Identificación e interpretación de los diferentes elementos presentes en un plano esquemático',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Planos esquemáticos',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Equipos, instrumentos y medidas',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Circuitos electrónicos',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Herramientas',
-            hash: 't_1_4',
-          },
-        ],
       },
 
       {
@@ -75,32 +49,6 @@ export default {
         titulo:
           'Comprobación del correcto funcionamiento de los circuitos de acuerdo con procedimientos técnicos y normativos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Variables eléctricas y electrónicas',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Gestión de documentación',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Protocolo de pruebas',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Normativa de seguridad y salud en el trabajo',
-            hash: 't_2_4',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -203,7 +151,7 @@ export default {
     {
       termino: 'Ley de Coulomb',
       significado:
-        'establece que la fuerza eléctrica de atracción o repulsión entre dos cargas en reposo es directamente proporcional al producto de las cargas y a la constante de Coulomb e inversamente proporcional a la distancia de separación al cuadrado',
+        'establece que la fuerza eléctrica de atracción o repulsión entre dos cargas en reposo es directamente proporcional al producto de las cargas y a la constante de Coulomb e inversamente proporcional a la distancia de separación al cuadrado.',
     },
     {
       termino: 'Ley de Kirchoff',
@@ -241,7 +189,7 @@ export default {
       referencia:
         'Aprende Institute. (2022). <em>Herramientas utilizadas en la reparación electrónica.</em>',
       link:
-        'https://aprende.com/blog/oficios/reparacion-electronica/herramientas-utilizadas-en-la-reparacion-electronica/ ',
+        'https://aprende.com/blog/oficios/reparacion-electronica/herramientas-utilizadas-en-la-reparacion-electronica/',
     },
     {
       referencia:
@@ -250,22 +198,6 @@ export default {
     {
       referencia:
         'Dorf, R., & Svoboda, J. (2015). <em>Circuitos Eléctricos</em>. Alianza Editorial.',
-    },
-    {
-      referencia:
-        'F. (2016, 31 octubre). <em>¿Qué es la ley de Ohm?</em> Fluke.',
-      link:
-        'https://www.fluke.com/es-co/informacion/blog/electrica/que-es-la-ley-de-ohm ',
-    },
-    {
-      referencia: 'F. (2021a, mayo 9). <em>¿Qué es la continuidad?</em> Fluke.',
-      link:
-        'https://www.fluke.com/es-co/informacion/blog/electrica/que-es-la-continuidad ',
-    },
-    {
-      referencia: 'F. (2021b, mayo 9). <em>¿Qué es un diodo?</em> Fluke.',
-      link:
-        'https://www.fluke.com/es-co/informacion/blog/electrica/que-es-un-diodo ',
     },
     {
       referencia:

@@ -98,8 +98,7 @@
           figure
             img(src="@/assets/curso/temas/t2/f9.svg", alt="imagen relacionada")
         .col-md-7.text-left
-          h4 Semiconductores
-          p Los semiconductores son todos los materiales cuyo estado depende de factores físicos como la temperatura, presión campos magnéticos, etc. Es decir, son todos aquellos materiales que se comportan como aislantes o conductores, dependiendo de factores externos. Más precisamente, puesto que los conductores tienen sus capas de valencia llenas a menos de la mitad, y los aisladores tienen las suyas llenas a más de la mitad, las substancias que tienen átomos con cuatro electrones de valencia, reciben el nombre de semiconductores. (Mileaf, H., 2002)
+          h4 Los semiconductores son todos los materiales cuyo estado depende de factores físicos como la temperatura, presión, campos magnéticos, etc. Es decir, son todos aquellos materiales que se comportan como aislantes o conductores, dependiendo de factores externos. Más precisamente, puesto que los conductores tienen sus capas de valencia llenas a menos de la mitad, y los aisladores tienen las suyas llenas a más de la mitad, las substancias que tienen átomos con cuatro electrones de valencia, reciben el nombre de semiconductores. (Mileaf, H., 2002)
       .row.align-items-center.justify-content-center
         .col-md-7.order-sm-last.order-md-first
           h4 Diodos
@@ -167,12 +166,11 @@
           figure
             img(src="@/assets/curso/temas/t2/f14.png", alt="imagen relacionada")
 
-    Separador
-
+    h3.mb-5 Gestión de documentación
     .bg5
       .row.justify-content-around.align-items-center.mb-3
         .col-md-7
-          h3 Gestión de documentación
+          
           p Gestionar en documentos todos los procedimientos realizados a un equipo permite agendar todos los mantenimientos preventivos y correctivos futuros, consolida un historial de intervenciones que pueden guiar a futuros procedimientos con características similares a pasadas revisiones.
         .col-md-5.order-sm-first.order-md-last
           figure
@@ -246,10 +244,8 @@
               br
               |Toda esta información guiará a los profesionales, en futuras intervenciones.
 
-    Separador
 
-    #t_2_4.titulo-segundo.color-acento-contenido
-      h2 2.4 Normativa de seguridad y salud en el trabajo
+    h3  Normativa de seguridad y salud en el trabajo
 
     p Las normativas de seguridad y salud en el trabajo tienen como objetivo establecer reglas, rutas y pautas que se deben seguir dentro de las instalaciones laborales con el fin de evitar o reducir accidentes personales o comprometer la integridad de los equipos.
 
@@ -272,7 +268,7 @@
         .row.align-items-center.justify-content-between
           .col-md-7.mb-4.mb-md-0
             h4 Herramientas
-            p Cada una de las herramientas que se van a utilizar dentro del laboratorio o área laboral, cuentan con unos manuales de uso, lo cuales se deben seguir para evitar resultados inesperados o accidentes. Además, se deben llevar a cabo algunas recomendaciones antes de manipular cada uno de los equipos y herramientas: realizar una inspección visual para verificar el estado de las herramientas, realizar pruebas de control para verificar la calidad de las mediciones, no manipular ningún elemento si ha consumido alguna clase de bebida alcohólica, droga o medicamentos con fuertes reacciones, no usar prendas mojadas y estar siempre bajo la supervisión de personal más calificado para la intervención a realizar.
+            p Cada una de las herramientas que se van a utilizar dentro del laboratorio o área laboral, cuentan con unos manuales de uso, los cuales se deben seguir para evitar resultados inesperados o accidentes. Además, se deben llevar a cabo algunas recomendaciones antes de manipular cada uno de los equipos y herramientas: realizar una inspección visual para verificar el estado de las herramientas, realizar pruebas de control para verificar la calidad de las mediciones, no manipular ningún elemento si ha consumido alguna clase de bebida alcohólica, droga o medicamentos con fuertes reacciones, no usar prendas mojadas y estar siempre bajo la supervisión de personal más calificado para la intervención a realizar.
           .col-md-4
             figure
               img(src='@/assets/curso/temas/t2/f25.png', alt='Texto que describa la imagen')
