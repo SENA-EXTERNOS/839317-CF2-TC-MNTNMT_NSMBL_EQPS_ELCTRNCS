@@ -135,11 +135,11 @@
           figure
             img(src="@/assets/curso/temas/t2/coulomb.jpg", alt="imagen relacionada", style='width:120px !important')
           p Donde:
-          p K=Constante de Coulomb 
-          p Q1=Carga 1
-          p Q2=Carga 2
+          p K= constante de Coulomb 
+          p Q1= carga 1
+          p Q2= carga 2
           p r= distancia de separación de las cargas.
-          p F=Fuerza eléctrica.
+          p F= fuerza eléctrica.
         .col-md-5
           figure
             img(src="@/assets/curso/temas/t2/f12.png", alt="imagen relacionada")
@@ -153,12 +153,12 @@
           figure
             img(src="@/assets/curso/temas/t2/faraday1.jpg", alt="imagen relacionada", style='width:120px !important')
           p Donde:
-          p E=Fuerza electromotriz.
+          p E= fuerza electromotriz.
           .row.align-items-center
             .col-auto
               img.text-left(src="@/assets/curso/temas/t2/faraday2.jpg", alt="", style='width:60px !important') 
             .col
-              p.mb-0 = A la razón de cambio del flujo magnético.
+              p.mb-0 = a la razón de cambio del flujo magnético.
       .row.align-items-center.justify-content-center
         .col-md-7.order-sm-last.order-md-first
           h4 Estática
