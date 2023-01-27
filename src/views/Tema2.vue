@@ -98,7 +98,8 @@
           figure
             img(src="@/assets/curso/temas/t2/f9.svg", alt="imagen relacionada")
         .col-md-7.text-left
-          h4 Los semiconductores son todos los materiales cuyo estado depende de factores físicos como la temperatura, presión, campos magnéticos, etc. Es decir, son todos aquellos materiales que se comportan como aislantes o conductores, dependiendo de factores externos. Más precisamente, puesto que los conductores tienen sus capas de valencia llenas a menos de la mitad, y los aisladores tienen las suyas llenas a más de la mitad, las substancias que tienen átomos con cuatro electrones de valencia, reciben el nombre de semiconductores. (Mileaf, H., 2002)
+          h4 Los semiconductores
+          p Los semiconductores son todos los materiales cuyo estado depende de factores físicos como la temperatura, presión, campos magnéticos, etc. Es decir, son todos aquellos materiales que se comportan como aislantes o conductores, dependiendo de factores externos. Más precisamente, puesto que los conductores tienen sus capas de valencia llenas a menos de la mitad, y los aisladores tienen las suyas llenas a más de la mitad, las substancias que tienen átomos con cuatro electrones de valencia, reciben el nombre de semiconductores. (Mileaf, H., 2002)
       .row.align-items-center.justify-content-center
         .col-md-7.order-sm-last.order-md-first
           h4 Diodos
@@ -182,7 +183,7 @@
         .col-md-8.tarjeta.fcp20
           .p-4
             h5 Protocolo de pruebas 
-            p Para realizar las pruebas de cada uno de los equipos a intervenir se debe seguir las recomendaciones brindadas por el manual de usuario del fabricante y de las normas asociadas al tipo de dispositivo que se esté manipulando.
+            p Para realizar las pruebas de cada uno de los equipos a intervenir se deben seguir las recomendaciones brindadas por el manual de usuario del fabricante y de las normas asociadas al tipo de dispositivo que se esté manipulando.
       .row.justify-content-around.align-items-center.mb-3
         .col-md-8.tarjeta.fcp20
           .p-4
