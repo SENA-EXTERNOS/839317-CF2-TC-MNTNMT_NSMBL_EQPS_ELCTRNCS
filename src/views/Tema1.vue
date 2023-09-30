@@ -37,13 +37,13 @@
             .col-8
               img(src='@/assets/curso/temas/t1/f3.png' alt='Condensadores o capacitores')
           h2.text-center Condensadores o capacitadores
-          p.text-center.text-small Este tipo de elemento se caracteriza por almacenar energía a través de un campo eléctrico, Mileaf, H. (2002) lo define como propiedad de un circuito eléctrico, que le permite almacenar energía eléctrica por medio de un campo electrostático y liberar esta energía posteriormente”. Se representa por medio de una letra C, no posee continuidad y su unidad de medida es el faradio. Además, dependiendo del tipo de condensador este puede o no tener polaridad.
+          p.text-center.text-small Este tipo de elemento se caracteriza por almacenar energía a través de un campo eléctrico, Mileaf, H. (2002) lo define como "propiedad de un circuito eléctrico, que le permite almacenar energía eléctrica por medio de un campo electrostático y liberar esta energía posteriormente”. Se representa por medio de una letra C, no posee continuidad y su unidad de medida es el faradio. Además, dependiendo del tipo de condensador este puede o no tener polaridad.
         .tarjeta.color-secundario.p-4(style='height:535px')
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/temas/t1/f4.png' alt='Bobinas')
           h2.text-center Bobinas
-          p.text-center.text-small Al igual que los capacitores, las bobinas o inductores almacenan energía con la diferencia que estos elementos lo hacen mediante un campo magnético, Mileaf, H. (2002) lo define como: “La inductancia es la propiedad de un circuito eléctrico que se opone a cualquier cambio de corriente en el circuito. Se representan por una letra L, su unidad de medida es el Henrio y se caracterizan por poseer conductividad.
+          p.text-center.text-small Al igual que los capacitores, las bobinas o inductores almacenan energía con la diferencia que estos elementos lo hacen mediante un campo magnético, Mileaf, H. (2002) lo define como: “La inductancia es la propiedad de un circuito eléctrico que se opone a cualquier cambio de corriente en el circuito". Se representan por una letra L, su unidad de medida es el Henrio y se caracterizan por poseer conductividad.
         .tarjeta.color-secundario.p-4(style='height:535px')
           .row.justify-content-center.mb-3
             .col-8
@@ -204,9 +204,9 @@
             div(titulo="Conexión Motor DC")
               p Esta conexión es la más simple, solo se deben conectar los dos pines o cables del motor en una fuente de tensión DC con el nivel sugerido por el fabricante. De acuerdo con la polaridad u orden de conexión, el motor girará en un sentido o en el otro.
             div(titulo="Conexión Tipo estrella")
-              p Este tipo de conexión es usada para los motores trifásicos; se caracteriza por conectar todas las fases en un punto común, es decir, todas las fuentes o fases conducen su energía aún mismo nodo. Es usado comúnmente en motores que requieran una baja corriente eléctrica para su arranque y alta tensión.
+              p Este tipo de conexión es usada para los motores trifásicos; se caracteriza por conectar todas las fases en un punto común, es decir, todas las fuentes o fases conducen su energía a un mismo nodo. Es usado comúnmente en motores que requieran una baja corriente eléctrica para su arranque y alta tensión.
             div(titulo="Conexión tipo Delta")
-              p La conexión tipo delta o triángulo se caracteriza por tener una fase en cada uno de sus lados sin la necesidad de punto común. A lo no existir este punto, no es necesario tener un neutro por lo cual, si una de las tres fases llega a fallar no se verá comprometido el funcionamiento del motor, ventaja muy importante a tener en cuenta en el diseño de este tipo de dispositivos. A diferencia de la configuración estrella, este tipo de conexión se usa en motores que demanden una alta corriente en el arranque y baja tensión.
+              p La conexión tipo delta o triángulo se caracteriza por tener una fase en cada uno de sus lados sin la necesidad de punto común. Al no existir este punto, no es necesario tener un neutro, por lo cual, si una de las tres fases llega a fallar no se verá comprometido el funcionamiento del motor, ventaja muy importante a tener en cuenta en el diseño de este tipo de dispositivos. A diferencia de la configuración estrella, este tipo de conexión se usa en motores que demanden una alta corriente en el arranque y baja tensión.
             div(titulo="Puesta en marcha")
               p Para la puesta en marcha o arranque de un motor eléctrico se debe realizar una vez verificadas las características de este en su estructura, hoja de datos o manual. Dentro del arranque de los motores eléctricos se tienen las siguientes configuraciones:
               ul.lista-ul--color
