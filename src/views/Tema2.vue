@@ -68,7 +68,7 @@
       .row.align-items-center.justify-content-center
         .col-md-7.order-sm-last.order-md-first
           h4 Continuidad
-          p Colocar texto explicativo o información correspondiente
+          p La continuidad es la presencia de una ruta completa para el flujo de corriente.
         .col-md-5(data-aos='fade-left')
           figure
             img(src="@/assets/curso/temas/t2/f6.svg", alt="imagen relacionada")
