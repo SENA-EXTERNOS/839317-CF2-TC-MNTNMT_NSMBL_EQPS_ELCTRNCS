@@ -115,7 +115,7 @@ export default {
         'Floyd, T. L., & Salas, R. N. (2008). <em>Dispositivos electrónicos 8ED.</em> Pearson Educación.',
       tipo: 'Libro',
       link:
-        'https://www.alphaeditorialcloud.com/library/publication/circuitos-electricos-9a-edicion',
+        'https://latecnicalf.com.ar/descargas/material/electronicaanalogica/Dispositivos%20Electronicos%208va.edicion-%20Floyd.pdf',
     },
   ],
   glosario: [
