@@ -44,14 +44,14 @@
           p El voltaje o tensión, es la diferencia de potencial eléctrico que existe entre dos puntos de un circuito. Esta variable nos dice qué tan difícil es llevar un electrón de un punto determinado a otro. 
             br
             br
-            |En otras palabras: “La carga eléctrica que adquiere un objeto se llama potencial eléctrico, debido a que los electrones desplazados acumulan energía potencial que se puede utilizar para mover a otros electrones. Puesto que se necesitan dos cargas para completar un circuito, la diferencia de potencial entre estas dos cargas es lo que proporciona la fuerza eléctrica”. (Mileaf, H., 2002) 
+            |En otras palabras: “La carga eléctrica que adquiere un objeto se llama potencial eléctrico, debido a que los electrones desplazados acumulan energía potencial que se puede utilizar para mover a otros electrones. Puesto que se necesitan dos cargas para completar un circuito, la diferencia de potencial entre estas dos cargas es lo que proporciona la fuerza eléctrica” (Mileaf, H., 2002). 
             br
             br
             |Al igual que en el caso anterior, el voltaje se divide en dos grupos: voltaje continuo, que se caracteriza por tener una polaridad fija y voltaje alterno, que se caracteriza por tener una polaridad cambiante en el tiempo.
       .row.align-items-center.justify-content-center
         .col-md-7.order-sm-last.order-md-first
           h4 Potencia
-          p La potencia eléctrica dentro de un circuito, mide la cantidad de energía (recurso eléctrico) suministrada o usada por un elemento; la potencia es la cantidad de trabajo que una carga puede llevar a cabo en cierta cantidad estándar de tiempo, generalmente un segundo. (Mileaf, H., 2002)
+          p La potencia eléctrica dentro de un circuito, mide la cantidad de energía (recurso eléctrico) suministrada o usada por un elemento; la potencia es la cantidad de trabajo que una carga puede llevar a cabo en cierta cantidad estándar de tiempo, generalmente un segundo (Mileaf, H., 2002).
             br
             br
             |Debido a que la energía no puede ser destruida, algunos elementos disipan calor; este motivo obliga a tener cuidado a la hora de manipular piezas electrónicas.
@@ -99,7 +99,7 @@
             img(src="@/assets/curso/temas/t2/f9.svg", alt="imagen relacionada")
         .col-md-7.text-left
           h4 Semiconductores
-          p Los semiconductores son todos los materiales cuyo estado depende de factores físicos como la temperatura, presión, campos magnéticos, etc. Es decir, son todos aquellos materiales que se comportan como aislantes o conductores, dependiendo de factores externos. Más precisamente, puesto que los conductores tienen sus capas de valencia llenas a menos de la mitad, y los aisladores tienen las suyas llenas a más de la mitad, las substancias que tienen átomos con cuatro electrones de valencia, reciben el nombre de semiconductores. (Mileaf, H., 2002)
+          p Los semiconductores son todos los materiales cuyo estado depende de factores físicos como la temperatura, presión, campos magnéticos, etc. Es decir, son todos aquellos materiales que se comportan como aislantes o conductores, dependiendo de factores externos. Más precisamente, puesto que los conductores tienen sus capas de valencia llenas a menos de la mitad, y los aisladores tienen las suyas llenas a más de la mitad, las substancias que tienen átomos con cuatro electrones de valencia, reciben el nombre de semiconductores (Mileaf, H., 2002).
       .row.align-items-center.justify-content-center
         .col-md-7.order-sm-last.order-md-first
           h4 Diodos
@@ -131,7 +131,7 @@
       .row.align-items-center.justify-content-center
         .col-md-7.order-sm-last.order-md-first
           h4 Ley de Coulomb
-          p La ley de Coulomb establece que la fuerza eléctrica de atracción o repulsión entre dos cargas en reposo es directamente proporcional al producto de las cargas y a la constante de Coulomb e inversamente proporcional a la distancia de separación al cuadrado. En otras palabras, la intensidad de las líneas electrostáticas de fuerza es inversamente proporcional al cuadrado de la distancia entre las cargas. (Mileaf, H., 2002)
+          p La ley de Coulomb establece que la fuerza eléctrica de atracción o repulsión entre dos cargas en reposo es directamente proporcional al producto de las cargas y a la constante de Coulomb e inversamente proporcional a la distancia de separación al cuadrado. En otras palabras, la intensidad de las líneas electrostáticas de fuerza es inversamente proporcional al cuadrado de la distancia entre las cargas (Mileaf, H., 2002).
           figure
             img(src="@/assets/curso/temas/t2/coulomb.jpg", alt="imagen relacionada", style='width:120px !important')
           p Donde:
